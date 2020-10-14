@@ -1,9 +1,37 @@
+.headerprincipal {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: #cfcfcf solid 2px;
+}
+.headerprincipal__logo {
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.headerprincipal i {
+  color: #353535;
+  margin-left: 20px;
+}
+
 button {
   border: 1px solid;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   border-radius: 20px;
   color: white;
   padding: 10px;
+}
+
+nav {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

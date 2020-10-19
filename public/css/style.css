@@ -56,6 +56,19 @@ img {
   padding-top: 5%;
 }
 
+.food {
+  margin-bottom: 5%;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.food__description {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   margin: 0px;
 }

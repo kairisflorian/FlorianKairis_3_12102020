@@ -9,3 +9,26 @@ img{
 body{
     margin: 0px;
 }
+
+.localisation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(234, 234, 234);
+    h3{
+        margin-left: 15px;
+    }
+}    
+
+.description{
+    background: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}   
+    
+    
+

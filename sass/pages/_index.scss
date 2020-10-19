@@ -1,9 +1,5 @@
-nav{
-    width: 100%;
-}
-
-img{
-    width: 100%;
+body{
+    margin: 0px;
 }
 
 .localisation{
@@ -44,6 +40,29 @@ img{
         }
     }
 }    
+
+nav{
+    width: 100%;
+    background: rgb(245, 237, 255) ;
+    padding-top: 10%;
     
+}    
+ 
+.preview{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    &__img{
+        width: 100%;
+        height: 180px;
+    }
+}
+
+
+
+
+
     
 

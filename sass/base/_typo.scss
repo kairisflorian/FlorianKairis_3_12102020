@@ -4,6 +4,32 @@
          url('../../public/fonts/shrikhand-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}    
+
+@font-face{
+    font-family: 'robotolight';
+    src: url(../../public/fonts/roboto-light-webfont.woff) format('woff'),
+         url(../../public/fonts/roboto-light-webfont.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;     
 }
+
+@font-face{
+    font-family: 'robotoregular';
+    src: url(../../public/fonts/roboto-regular-webfont.woff) format(woff),
+         url(../../public/fonts/roboto-regular-webfont.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;     
+}
+
+@font-face{
+    font-family: 'robotobold';
+    src: url(../../public/fonts/roboto-bold-webfont.woff) format(woff),
+         url(../../public/fonts/roboto-bold-webfont.woff2) format(woff2);
+    font-weight: bold;
+    font-style: normal;     
+}    
+
+
 
 

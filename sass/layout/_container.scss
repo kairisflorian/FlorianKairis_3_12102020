@@ -1,23 +1,35 @@
 .container{
-    margin-top: 0px;
-    background: rgb(246, 246, 246);
+    margin-top: 60%;
+    background: #F6F6F6;
     padding-left: 7%;
     padding-right: 7%;
-    border-radius: 40px 40px 0 0;
+    border-radius: 30px 30px 0 0;
     padding-top: 7%;
     padding-bottom: 15%;
+    h1{
+        font-family: 'shrikhandregular';
+        font-size: 1.3em;
+        display: flex;
+        justify-content: space-between;
+    }
     
 }
 
 .dish{
     padding-bottom: 10%;
     padding-top: 5%;
+    h2{
+        font-family: 'robotolight';
+        font-size: 0.8em;
+        margin-bottom: 20px;
+        color: #353535;
+    }
 }
 
 .food{
     margin-bottom: 5%;
-    background: rgb(255, 255, 255);
-    border-radius: 30px;
+    background:#FFFFFF;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 5%;
@@ -25,7 +37,22 @@
         display: flex;
         justify-content: space-between;
     }
-}        
+    h3{
+        font-size: 0.9em;
+        font-family: 'robotobold';
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 3px;
+        max-width: 90%;
+    }
+    p{
+        margin: 0;
+        font-size: 0.7em;
+        max-width: 75%;
+        font-family: 'robotolight';
+    }
+}   
+         
      
     
   

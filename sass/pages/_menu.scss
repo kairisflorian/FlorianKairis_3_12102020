@@ -2,4 +2,36 @@ img{
     width: 100%;
     margin-top: 0px;
 }
+
+.background1{
+    background-image: url(../../public/img/restaurants/img1.jpg);
+    background-position-y: 5%;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}    
+
+.background2{
+    background-image: url(../../public/img/restaurants/img3.jpg);
+    background-position-y: 0%;
+    background-size: 100% ;
+    background-repeat: repeat;
+}
+
+.background3{
+    background-image: url(../../public/img/restaurants/img4.jpg);
+    background-position-y: 4.5%;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+.background4{
+    background-image: url(../../public/img/restaurants/img2.jpg);
+    background-position-y: 4.5%;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}  
+    
+
+
+
     

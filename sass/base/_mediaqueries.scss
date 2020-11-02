@@ -1,0 +1,22 @@
+@media all and (min-width: 426px) and (max-width: 768px){
+    .fonctionnement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__step{
+            width: 50%;
+        }
+    }
+
+    .carte{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .preview{
+        width: 50%;
+    }
+}      

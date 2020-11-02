@@ -7,11 +7,18 @@ button{
 }
 
 .commanderbtn{
-    margin-left: 33%;
-    margin-right: 33%;
     padding-left: 20px;
     padding-right: 20px;
+}   
+
+.bouton_commande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9%;
 }
+    
+
         
 
     

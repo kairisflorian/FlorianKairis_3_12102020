@@ -45,10 +45,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid rgb(245, 237, 255) ;
         border-radius: 20px;
         margin-bottom: 8%;
         background: #F6F6F6;
+        box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.08);
+        position: relative;
         i{
             margin-right: 20px;
             color: #868686;
@@ -56,8 +57,14 @@
         &--color{
             background-color: #F5EDFF;
         }
+        
     }
-}    
+}
+
+.purpleicon{
+    color: $primary-color;
+}
+    
         
 
 .carte{
@@ -79,30 +86,43 @@
     margin-bottom: 5%;
     height: 220px;
     position: relative;
+    box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.08);
     &__text{
         background-color: white;
         position: absolute;
         bottom: 0px;
         border-radius: 0px 0px 10px 10px;
         width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        color: black;
         h2{
             font-family: 'robotobold';
             font-size: 1.1em;
             margin: 0px;
-            padding-top: 10px;
+            padding-left: 3%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
         }
         h3{
             font-family: 'robotolight';
             font-size: 0.8em;
             margin: 0px;
+            padding-left: 3%;
+        }
+        i{
+            
+            color:  rgb(53, 53, 53);
         }
     }
     &--back1{
         background-image: url(../../public/img/restaurants/img1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: -65px;
-        
+        background-position-y: -60px;
     }
     &--back2{
         background-image: url(../../public/img/restaurants/img3.jpg);
@@ -114,15 +134,19 @@
         background-image: url(../../public/img/restaurants/img4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: -65px;
+        background-position-y: -60px;
     }
     &--back4{
         background-image: url(../../public/img/restaurants/img2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: -65px;
+        background-position-y: -60px;
     }
-}    
+}        
+        
+        
+        
+    
     
         
         

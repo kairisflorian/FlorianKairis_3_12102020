@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media all and (min-width: 426px) and (max-width: 768px) {
   .fonctionnement {
     display: flex;
@@ -148,10 +149,26 @@ button:hover {
   margin-top: 9%;
 }
 
+.fa-heart {
+  color: #353535;
+}
+
+.fa-heart::before {
+  content: "";
+  background: white;
+  transition: all 0.8s ease-in;
+}
+
+.fa-heart:hover::before {
+  color: #9356DC;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .footer {
   background-color: #353535;
   color: white;
-  padding: 20px 40% 20px 20px;
+  padding: 20px 30% 20px 20px;
   font-family: "robotoregular";
 }
 .footer__insigne {
@@ -238,9 +255,6 @@ img {
   display: flex;
   justify-content: space-between;
   width: 90%;
-}
-.container i:hover {
-  color: red;
 }
 
 .trait_dessus {
@@ -429,12 +443,6 @@ img {
   font-size: 0.8em;
   margin: 0px;
   padding-left: 3%;
-}
-.preview__text i {
-  color: #353535;
-}
-.preview__text i:hover {
-  color: red;
 }
 .preview--back1 {
   background-image: url(../../public/img/restaurants/img1.jpg);

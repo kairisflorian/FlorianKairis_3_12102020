@@ -5,18 +5,18 @@
 .lds-dual-ring {
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 50px;
     width: 100%;
-    top: 160px;
-    position: absolute;
+    
     &::after{
         content: " ";
         opacity: 0;
-        display: block;
-        width: 64px;
-        height: 64px;
-        margin: 8px;
+        width: 32px;
+        height: 32px;
+        margin: 4px;
         border-radius: 50%;
-        border: 6px solid black;
+        border: 3px solid black;
         border-color:  transparent #9356DC transparent;
         animation: lds-dual-ring 1s linear;
         animation-iteration-count: 2;

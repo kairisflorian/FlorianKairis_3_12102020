@@ -6,6 +6,7 @@ button{
     padding: 10px;
     box-shadow: -2px 13px 52px -12px rgba(0,0,0,0.60);
     transition: all 300ms;
+    cursor: pointer;
     &:hover{
         background: linear-gradient(to bottom right, lighten($secondary-color, 3%), lighten($primary-color, 3%));
         box-shadow: -2px 13px 52px -12px rgba(0,0,0,0.90);
@@ -16,6 +17,7 @@ button{
 .commanderbtn{
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
 }   
 
 .bouton_commande{
@@ -23,6 +25,7 @@ button{
     align-items: center;
     justify-content: center;
     margin-top: 9%;
+    cursor: pointer;
 }
     
 

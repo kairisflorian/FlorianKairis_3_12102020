@@ -6,19 +6,18 @@
 .lds-dual-ring {
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 50px;
   width: 100%;
-  top: 160px;
-  position: absolute;
 }
 .lds-dual-ring::after {
   content: " ";
   opacity: 0;
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
   border-radius: 50%;
-  border: 6px solid black;
+  border: 3px solid black;
   border-color: transparent #9356DC transparent;
   animation: lds-dual-ring 1s linear;
   animation-iteration-count: 2;
@@ -65,6 +64,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .footer {
+    width: 100%;
+    text-align: center;
   }
 }
 @media all and (min-width: 769px) and (max-width: 1024px) {
@@ -166,6 +170,7 @@ button {
   padding: 10px;
   box-shadow: -2px 13px 52px -12px rgba(0, 0, 0, 0.6);
   transition: all 300ms;
+  cursor: pointer;
 }
 button:hover {
   background: linear-gradient(to bottom right, #ff88de, #9b63df);
@@ -175,6 +180,7 @@ button:hover {
 .commanderbtn {
   padding-left: 20px;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 .bouton_commande {
@@ -182,6 +188,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   margin-top: 9%;
+  cursor: pointer;
 }
 
 .fa-heart {
@@ -291,6 +298,12 @@ img {
   justify-content: space-between;
   width: 90%;
 }
+.container h2 {
+  font-family: "robotolight";
+  font-size: 0.8em;
+  margin-bottom: 5px;
+  color: #353535;
+}
 
 .trait_dessus {
   border-top: 2px solid #99E2D0;
@@ -298,17 +311,31 @@ img {
   width: 10%;
 }
 
-.dish {
+.dish1 .dish2 .dish3 {
   padding-bottom: 4%;
   padding-top: 5%;
 }
-.dish h2 {
-  font-family: "robotolight";
-  font-size: 0.8em;
-  margin-bottom: 5px;
-  color: #353535;
+
+.dish1 {
+  animation: apparition-menu 0.8s;
 }
 
+.dish2 {
+  animation: apparition-menu 0.8s 800ms;
+}
+
+.dish3 {
+  animation: apparition-menu 0.8s 1600ms;
+}
+
+@keyframes apparition-menu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .food {
   margin-bottom: 5%;
   background: #FFFFFF;
@@ -365,6 +392,7 @@ img {
   align-items: center;
   text-align: center;
   padding: 10%;
+  padding-top: 0;
 }
 .description__button {
   margin-top: 7%;

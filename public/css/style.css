@@ -70,6 +70,10 @@
     width: 100%;
     text-align: center;
   }
+
+  div.trait_dessus {
+    width: 4%;
+  }
 }
 @media all and (min-width: 769px) and (max-width: 1024px) {
   .fonctionnement {
@@ -100,6 +104,15 @@
 
   .preview {
     width: 40%;
+  }
+
+  footer.footer {
+    padding-right: 0%;
+    padding-left: 5%;
+  }
+
+  div.trait_dessus {
+    width: 3%;
   }
 }
 @media all and (min-width: 1025px) and (max-width: 2000px) {
@@ -132,6 +145,22 @@
   .preview {
     width: 30%;
     height: 300px;
+  }
+
+  footer.footer {
+    padding-right: 0%;
+    padding-left: 4%;
+  }
+
+  article.preview--back1 {
+    margin-left: -3%;
+  }
+  article.preview--back3 {
+    margin-left: -3%;
+  }
+
+  div.trait_dessus {
+    width: 2.3%;
   }
 }
 @font-face {

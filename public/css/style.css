@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .contenu {
   opacity: 1;
 }
@@ -223,19 +222,20 @@ button:hover {
 .fa-heart {
   color: #353535;
 }
-
-.fa-heart::before {
-  content: "";
-  background: white;
-  transition: all 0.8s ease-in;
-}
-
-.fa-heart:hover::before {
-  color: #9356DC;
+.fa-heart:hover {
   font-weight: bold;
-  cursor: pointer;
+  color: #9356DC;
+  animation: remplir-coeur 2000ms linear both;
 }
 
+@keyframes remplir-coeur {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .footer {
   background-color: #353535;
   color: white;

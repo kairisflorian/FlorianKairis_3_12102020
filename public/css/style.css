@@ -96,6 +96,10 @@
   div.trait_dessus {
     width: 4%;
   }
+
+  .load {
+    top: 130px;
+  }
 }
 @media all and (min-width: 769px) and (max-width: 1024px) {
   .fonctionnement {
@@ -135,6 +139,10 @@
 
   div.trait_dessus {
     width: 3%;
+  }
+
+  .load {
+    top: 250px;
   }
 }
 @media all and (min-width: 1025px) and (max-width: 2000px) {
@@ -183,6 +191,10 @@
 
   div.trait_dessus {
     width: 2.3%;
+  }
+
+  .load {
+    top: 250px;
   }
 }
 @font-face {

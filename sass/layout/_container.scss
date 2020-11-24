@@ -31,24 +31,18 @@
 .dish1 .dish2 .dish3{
     padding-bottom: 4%;
     padding-top: 5%;
-    opacity: 0;
-    
 }
 
 .dish1{
-    
     animation: apparition-menu 300ms 1000ms backwards;
-    
 }
 
 .dish2{
     animation: apparition-menu 300ms 1300ms backwards;
-    
 }
 
 .dish3{
     animation: apparition-menu 300ms 1600ms backwards;
-    
 }
 
 @keyframes apparition-menu{
@@ -84,8 +78,8 @@
     p{
         margin: 0;
         font-size: 0.7em;
-        max-width: 80%;
         font-family: 'robotolight';
+        max-width: 80%;
     }
 }   
 

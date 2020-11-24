@@ -54,6 +54,10 @@
 
 /* version laptop */
 @media all and (min-width: 769px) and (max-width: 1024px){
+    .load{
+        top: 250px;
+    }
+
     .description{
         padding-bottom: 50px;
         p{
@@ -117,8 +121,79 @@
         width: 3%;
     }
 
-    .load{
-        top: 250px;
+    .container{
+        margin-top: 300px;
+        padding-bottom: 5%;
+        height: 600px;
+        h1{
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        h2{
+            margin-top: 0;
+        }
+    }
+
+    body.background1{
+        background-position-y: -25%;
+    }
+
+    body.background2{
+        background-position-y: 60%;
+    }
+
+    body.background3{
+        background-position-y: -30%;
+    }
+
+    body.background4{
+        background-position-y: -45%;
+    }
+
+    .arrangement-largeur{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    .dish1{
+        width: 280px;
+        height: 428px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .dish2{
+        width: 280px;
+        height: 428px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .dish3{
+        width: 280px;
+        height: 428px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .food{
+        height: 63px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div.trait_dessus{
+        width: 8%;
+    }
+
+    div.bouton_commande{
+        margin-top: 0;
     }
 }
 

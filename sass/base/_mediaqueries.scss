@@ -68,20 +68,34 @@
 
     .fonctionnement{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        &__step{
-            width: 40%;
-        }
+        flex-direction: row;
+        padding: 5%;
+        height: 150px;
+        align-items: flex-end;
+        justify-content: space-between;
         h1{
-            margin-bottom: 60px;
+            
+            margin: 0;
+            height: 60px;
+            position: absolute;
+            width: 90%;
+            align-self: flex-start;
+            text-align: center;
+        }
+        .numerofonction{
+            margin-left: -9%;
+        }
+        &__step{
+        width: 250px;
+        padding-right: 0;
+        justify-content: space-around;
+        margin-bottom: 0;
         }
     }
 
     .carte{
         padding-bottom: 30px;
-        padding-top: 30px;
+        padding-top: 50px;
         h1{
             margin-bottom: 60px;
             text-align: center;
@@ -275,12 +289,83 @@
         }
     }
 
-    div.trait_dessus{
-        width: 2.3%;
-    }
-
     .load{
         top: 300px;
+    }
+
+    .container{
+        margin-top: 300px;
+        padding-bottom: 5%;
+        height: 600px;
+        h1{
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        h2{
+            margin-top: 0;
+        }
+    }
+
+    body.background1{
+        background-position-y: -125%;
+    }
+
+    body.background2{
+        background-position-y: 120%;
+    }
+
+    body.background3{
+        background-position-y: -140%;
+    }
+
+    body.background4{
+        background-position-y: -140%;
+    }
+    
+    div.trait_dessus{
+        width: 7%;
+    }
+
+    .arrangement-largeur{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    .dish1{
+        width: 350px;
+        height: 428px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .dish2{
+        width: 350px;
+        height: 428px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .dish3{
+        width: 350px;
+        height: 428px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .food{
+        height: 63px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div.bouton_commande{
+        margin-top: 0;
     }
 }
 

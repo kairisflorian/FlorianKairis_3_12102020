@@ -504,11 +504,12 @@ img {
 /* version laptop */
 @media all and (min-width: 769px) and (max-width: 1024px) {
   .load {
-    top: 250px;
+    top: 300px;
   }
 
   .description {
     padding-bottom: 50px;
+    padding-top: 50px;
   }
   .description p {
     margin-bottom: 20px;
@@ -645,22 +646,47 @@ img {
   }
 }
 /* version laptop L */
-@media all and (min-width: 1025px) and (max-width: 2000px) {
+@media all and (min-width: 1025px) and (max-width: 1920px) {
   .fonctionnement {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .fonctionnement__step {
-    width: 25%;
+    flex-direction: row;
+    padding: 5%;
+    height: 150px;
+    align-items: flex-end;
+    justify-content: space-between;
   }
   .fonctionnement h1 {
-    margin-bottom: 60px;
+    margin: 0;
+    height: 60px;
+    position: absolute;
+    width: 90%;
+    align-self: flex-start;
+    text-align: center;
+  }
+  .fonctionnement .numerofonction {
+    margin-left: -13%;
+  }
+  .fonctionnement__step {
+    width: 350px;
+    padding-right: 0;
+    justify-content: space-around;
+    margin-bottom: 0;
   }
 
+  .description {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .description p {
+    margin-bottom: 20px;
+  }
+
+  .carte {
+    padding-top: 5%;
+  }
   .carte h1 {
-    margin-bottom: 60px;
+    margin: 0 0 5% 0;
+    padding: 0 5% 0 5%;
     text-align: center;
   }
 
@@ -668,25 +694,30 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 5% 0 5%;
   }
 
   .preview {
-    width: 30%;
-    height: 300px;
+    width: 20%;
+    height: 200px;
+    margin: 0;
   }
 
-  footer.footer {
-    padding-right: 0%;
-    padding-left: 4%;
+  .footer {
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
-
-  article.preview--back1 {
-    margin-left: -3%;
+  .footer__text {
+    margin: 0;
   }
-  article.preview--back3 {
-    margin-left: -3%;
+  .footer__insigne {
+    margin: 0;
   }
 
   div.trait_dessus {
@@ -694,107 +725,7 @@ img {
   }
 
   .load {
-    top: 250px;
-  }
-}
-/* version max 1920p */
-@media all and (min-width: 2001px) and (max-width: 2561px) {
-  .headerprincipal {
-    height: 120px;
-  }
-  .headerprincipal__logo {
-    width: 300px;
-  }
-
-  .localisation {
-    height: 150px;
-  }
-  .localisation__title {
-    font-size: 1.8em;
-  }
-  .localisation i {
-    font-size: 1.8em;
-  }
-
-  .description h1 {
-    font-size: 2.5em;
-  }
-  .description p {
-    font-size: 1.5em;
-  }
-
-  button {
-    width: 300px;
-    height: 60px;
-  }
-
-  .fonctionnement {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .fonctionnement__step {
-    width: 20%;
-  }
-  .fonctionnement h1 {
-    margin-bottom: 120px;
-    font-size: 2.5em;
-  }
-  .fonctionnement p {
-    font-size: 1.5em;
-  }
-  .fonctionnement p.numerofonction {
-    font-size: 0.8em;
-  }
-  .fonctionnement i {
-    font-size: 1.5em;
-  }
-
-  .carte {
-    padding-top: 5%;
-  }
-  .carte h1 {
-    margin-bottom: 100px;
-    margin-left: 0;
-    text-align: center;
-    font-size: 2.5em;
-  }
-
-  .presentation_laptop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .preview {
-    width: 30%;
-    height: 300px;
-    font-size: 2em;
-  }
-  .preview__text {
-    height: 100px;
-    padding-top: 30px;
-  }
-
-  article.preview {
-    height: 500px;
-  }
-
-  .footer {
-    padding-right: 0%;
-    padding-left: 10%;
-    font-size: 2em;
-  }
-  .footer__insigne {
-    margin-bottom: 80px;
-  }
-  .footer__text {
-    margin-bottom: 20px;
+    top: 300px;
   }
 }
 

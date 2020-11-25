@@ -741,6 +741,7 @@ img {
     margin-top: 300px;
     padding-bottom: 5%;
     height: 600px;
+    padding-top: 50px;
   }
   .container h1 {
     width: 100%;
@@ -812,7 +813,7 @@ img {
     margin-top: 0;
   }
 }
-@media all and (min-width: 1800px) and (max-width: 1920px) {
+@media all and (min-width: 1540px) and (max-width: 1920px) {
   .fonctionnement__step {
     width: 430px;
   }
@@ -820,6 +821,42 @@ img {
   .carte {
     padding-top: 20px;
     padding-bottom: 95px;
+  }
+
+  .container {
+    margin-top: 450px;
+  }
+
+  .dish1 {
+    width: 450px;
+  }
+
+  .dish2 {
+    width: 450px;
+  }
+
+  .dish3 {
+    width: 450px;
+  }
+
+  div.trait_dessus {
+    width: 5%;
+  }
+
+  body.background1 {
+    background-position-y: -400px;
+  }
+
+  body.background2 {
+    background-position-y: -940px;
+  }
+
+  body.background3 {
+    background-position-y: -450px;
+  }
+
+  body.background4 {
+    background-position-y: -430px;
   }
 }
 

@@ -154,7 +154,7 @@
     }
 
     body.background2{
-        background-position-y: 60%;
+        background-position-y: 500%;
     }
 
     body.background3{
@@ -369,3 +369,15 @@
     }
 }
 
+@media all and (min-width: 1800px) and (max-width: 1920px){
+    .fonctionnement{
+        &__step{
+            width: 430px;
+        }
+    }
+
+    .carte{
+        padding-top: 20px;
+        padding-bottom: 95px;
+    }
+}

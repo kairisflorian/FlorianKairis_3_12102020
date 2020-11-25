@@ -28,11 +28,6 @@
     width: 10%;
 }
 
-.dish1 .dish2 .dish3{
-    padding-bottom: 4%;
-    padding-top: 5%;
-}
-
 .dish1{
     animation: apparition-menu 300ms 1000ms backwards;
 }
@@ -57,27 +52,68 @@
 
 .food{
     margin-bottom: 5%;
+    position: relative;
     background:#FFFFFF;
     border-radius: 10px;
     box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.08);
     display: flex;
     flex-direction: column;
     padding: 5%;
+    &:hover{
+        &::before{
+            transform: scaleX(1);
+        }
+        .foodprice{
+            transform: translate(-60px);
+        }
+        p{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 65%;
+        }
+        h3{
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 230px;
+        }
+    }
+    &::before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f058";
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: $tertiary-color;
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 10px 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 500ms;
+    }
     &__description{
         display: flex;
         justify-content: space-between;
     }
     h3{
-        font-size: 0.9em;
+        font-size: 14.5px;
         font-family: 'robotobold';
         font-weight: bold;
         margin: 0;
         margin-bottom: 3px;
-        max-width: 90%;
+        
     }
     p{
         margin: 0;
-        font-size: 0.7em;
+        font-size: 11.2px;
         font-family: 'robotolight';
         max-width: 80%;
     }
@@ -86,8 +122,10 @@
 .foodprice{
     font-family: 'robotobold';
     font-weight: bold;
+    transition: transform 500ms;
 }
-         
+
+
      
     
   

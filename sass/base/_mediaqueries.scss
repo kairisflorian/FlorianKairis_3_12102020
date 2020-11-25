@@ -48,6 +48,12 @@
         top: 130px;
     }
 
+    .food{
+        &::before{
+            font-size: 30px;
+        }
+    }
+
     
 
 } 

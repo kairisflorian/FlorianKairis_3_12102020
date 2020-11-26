@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .lds-dual-ring {
   display: inline-block;
   width: 80px;
@@ -282,12 +281,11 @@ img {
   white-space: nowrap;
   max-width: 230px;
 }
+.food:hover .fa-check-circle {
+  transform: scaleX(1);
+}
 .food::before {
-  font-family: "Font Awesome 5 Free";
-  content: "";
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
+  content: "";
   background-color: #99E2D0;
   width: 20%;
   height: 100%;
@@ -295,9 +293,6 @@ img {
   top: 0;
   right: 0;
   border-radius: 0 10px 10px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 500ms;
@@ -318,6 +313,15 @@ img {
   font-size: 11.2px;
   font-family: "robotolight";
   max-width: 80%;
+}
+.food .fa-check-circle {
+  font-size: 1.4em;
+  position: absolute;
+  border: 1px solid black;
+  top: 33%;
+  right: 0;
+  font-weight: bold;
+  color: white;
 }
 
 .foodprice {

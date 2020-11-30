@@ -559,6 +559,15 @@ img {
   .food::before {
     font-size: 30px;
   }
+  .food:hover .foodprice {
+    transform: translate(-130px);
+  }
+  .food:hover .fa-check-circle {
+    transform: scaleX(1) translateX(-62px) rotate(360deg);
+  }
+  .food .fa-check-circle {
+    font-size: 1.7em;
+  }
 }
 /* version laptop */
 @media all and (min-width: 769px) and (max-width: 1024px) {
@@ -867,6 +876,12 @@ img {
     justify-content: center;
     flex-direction: column;
   }
+  .food:hover .foodprice {
+    transform: translate(-75px);
+  }
+  .food:hover .fa-check-circle {
+    transform: scaleX(1) translateX(-32px) rotate(360deg);
+  }
 
   div.bouton_commande {
     margin-top: 0;
@@ -916,6 +931,13 @@ img {
 
   body.background4 {
     background-position-y: -430px;
+  }
+
+  .food:hover .foodprice {
+    transform: translate(-95px);
+  }
+  .food:hover .fa-check-circle {
+    transform: scaleX(1) translateX(-42px) rotate(360deg);
   }
 }
 

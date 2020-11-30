@@ -282,7 +282,7 @@ img {
   max-width: 230px;
 }
 .food:hover .fa-check-circle {
-  transform: scaleX(1);
+  transform: scaleX(1) translateX(-25px) rotate(360deg);
 }
 .food::before {
   content: "";
@@ -317,11 +317,12 @@ img {
 .food .fa-check-circle {
   font-size: 1.4em;
   position: absolute;
-  border: 1px solid black;
   top: 33%;
-  right: 0;
+  right: -10px;
+  transform: scaleX(0);
   font-weight: bold;
   color: white;
+  transition: transform 500ms;
 }
 
 .foodprice {

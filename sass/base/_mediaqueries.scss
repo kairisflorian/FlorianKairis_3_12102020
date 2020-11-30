@@ -1,3 +1,29 @@
+/* version mobile m */
+@media all and (min-width: 321px) and (max-width: 376px){
+    .food{
+        &:hover{
+            .fa-check-circle{
+                transform: scaleX(1) translateX(-32px) rotate(360deg);
+            }
+        }
+    }    
+}
+
+/* version mobile l */
+@media all and (min-width: 376px) and (max-width: 426px){
+    .food{
+        &:hover{
+            .foodprice{
+                transform: translate(-70px);
+            }
+            
+            .fa-check-circle{
+                transform: scaleX(1) translateX(-32px) rotate(360deg);
+            }
+        }
+    }    
+}
+
 /* version tablette */
 @media all and (min-width: 426px) and (max-width: 768px){
     .fonctionnement{
